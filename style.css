@@ -13,7 +13,7 @@ h1 {
 
 * {
   background-color: rgb(69, 69, 188);
-  margin-top: 30px;
+  margin: 20px;
 }
 
 a {
@@ -26,15 +26,15 @@ a {
   margin-left: auto;
   margin-right: auto;
 }
-#q-and-a {
+.q-and-a {
   text-align: center;
 }
 
-#q-and-a h2 {
+.q-and-a h2 {
   font-size: 30px;
 }
 
-#q-and-a button {
+.q-and-a button {
   font-size: 30px;
   width: 150px;
 }
@@ -50,4 +50,31 @@ a {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.instructions {
+  text-align: center;
+  color: pink;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.score-doc {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Courier New";
+  font-size: 20px;
+}
+
+.q-and-a {
+  width: 700px;
+  font-size: 25px;
 }
